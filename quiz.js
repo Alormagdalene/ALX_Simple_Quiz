@@ -6,7 +6,7 @@ function checkAnswer() {
     if (clickOption){
         let userAnswer=clickOption.value;
 
-        if (userAnswer===correctAnswer){
+        if (userAnswer === correctAnswer){
             FeedbackElement.innerHTML = 'Correct! Well done.';
             FeedbackElement.style.color = 'green';
         } else{
